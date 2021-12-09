@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title{
+  font-size: 80px;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 25px;
+}
+.body{
+  margin-top: 30px;
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 30px
+}
+
+.intro {
+  font-size: 18px;
+  font-family: 'Courier Prime', monospace;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#howtoplay {
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+img {
+  border-radius: 15px;
+  margin: 8px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.instructionsandimages {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.instructions {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: start;
+  margin-right:50px;
+  margin-left:15px;
+}
+
+ol {
+  padding-left: 1.2em;
+}
+
+ul {
+  padding-left: 1.2em;
+}
+
+li{
+  margin-bottom: 5px;
+}
